@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mende+Kikakui&family=Roboto:wght@700&family=Rubik+Distressed&display=swap');
+
+.options{
+    background-color: #42D6C4;
+}
+.contents{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.cont{
+    font-family: 'Noto Sans Mende Kikakui', sans-serif;
+    font-weight: 550;
+    font-size: 1.3rem;
+    color: #fff;
+}
+.cont:hover{
+    /* background-color: #5596E6; */
+    cursor: pointer;
+}
