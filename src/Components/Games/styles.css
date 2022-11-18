@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mende+Kikakui&family=Roboto:wght@1000&family=Rubik+Distressed&display=swap');
+
+/* .game-page{
+    background-image: url('https://png.pngtree.com/background/20210715/original/pngtree-cartoon-doodle-travel-icon-background-picture-image_1298290.jpg');
+} */
+.featured2{
+    font-size: 4rem;
+    font-family: 'Noto Sans Mende Kikakui', sans-serif;
+    font-weight: 1000;
+    margin-left: 36%;
+    margin-top: 1rem;
+}
+Link{
+    text-decoration: none;
+}
+.game-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -4rem;
+}
+.game-list{
+    margin: 2rem;
+    height: 22rem;
+    width: 28%;
+    border: 4px solid #5596E6;
+    border-radius: 15px;
+    background-color: #5596E6;
+}
+.game-list:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+.game-img2{
+    height: 15rem;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+.game-details{
+    margin-top: -2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.game-name{
+    font-family: 'Noto Sans Mende Kikakui', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.cp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -2rem;
+}
+.category{
+    font-family: 'Noto Sans Mende Kikakui', sans-serif;
+    font-size: 1rem;
+    text-decoration: none;
+}
+.popularity{
+    font-family: 'Noto Sans Mende Kikakui', sans-serif;
+}
