@@ -88,7 +88,7 @@ function Games() {
                     return(
                             // 
                             <div className='game-list'>
-                                <a href = '/GamePage'>
+                                <Link to = '/GamePage'>
                                 <div className='game-img'>
                                     <img className='game-img2' src= {current.logo} alt='no img found' />
                                 </div>
@@ -99,7 +99,7 @@ function Games() {
                                         <p className='popularity'>Popularity : {current.Popularity}</p>
                                     </div>
                                 </div>
-                                </a>
+                                </Link>
                             </div>
                         //  </Link>
                           ) 

@@ -6,7 +6,7 @@ function GamePage() {
     <div>
         <Navbar />
         <div className='game-panel'>
-        <iframe seamless="seamless" allowtransparency="true" allowfullscreen="true" frameborder="0" src="https://zv1y2i8p.play.gamezop.com/g/SkhljT2fdgb" height= '500px' width= '700px'/> 
+        <iframe seamless="seamless" allowtransparency="true" allowfullscreen="true" frameborder="0" src="https://zv1y2i8p.play.gamezop.com/g/SkhljT2fdgb" height= '500px' width= '700px'  /> 
         </div>
     </div>
   )
